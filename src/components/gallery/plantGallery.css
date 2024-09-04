@@ -1,0 +1,51 @@
+.carousel-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    max-width: 100%;
+    /* margin: 0 auto; */
+    padding: 10px 0;
+  }
+  
+  .carousel-item {
+    flex: 0 0 auto;
+    margin: 0 10px;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+  }
+  
+  .carousel-item img {
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    height: auto;
+    max-width: 140px;
+    transition: all 0.3s ease;
+  }
+  
+  
+  .carousel-item.selected img {
+    max-width: 400px; /* Hình lớn */
+  }
+  
+  .carousel-item h2 {
+    text-align: center;
+    margin-top: 10px;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 1rem;
+    color: #333;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-family: "Quicksand";
+
+  }
+  
+  .carousel-item.selected h2 {
+    font-size: 1.25rem;
+  }
+  

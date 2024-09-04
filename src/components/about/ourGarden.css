@@ -1,0 +1,54 @@
+.our-garden-container {
+    position: relative;
+    width: 100%;
+    height: 600px;
+    display: flex;
+  }
+  
+  .image-background {
+    background-image: url('https://png.pngtree.com/background/20230607/original/pngtree-close-up-of-plants-in-tropical-jungle-picture-image_2903460.jpg');
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 1;
+  }
+  
+  .text-overlay {
+    position: relative;
+    z-index: 2;
+    background-color: rgba(255, 255, 255, 0.7); /* Semi-transparent white */
+    padding: 20px;
+    width: 50%; /* Adjust width to your preference */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .transparent-text {
+    font-size: 5rem;
+    font-weight: bold;
+    color: transparent;
+    background-image: url('https://png.pngtree.com/background/20230607/original/pngtree-close-up-of-plants-in-tropical-jungle-picture-image_2903460.jpg'); /* Use the same image */
+    background-clip: text;
+    -webkit-background-clip: text;
+    text-fill-color: transparent; /* For WebKit */
+    -webkit-text-fill-color: transparent; /* For WebKit */
+    margin: 0;
+    font-family: "Quicksand";
+  }
+  
+  .text-overlay p {
+    margin: 5px 0;
+    font-size: 1.8rem;
+    color: #333;
+    font-family: "Quicksand";
+
+  }
+  

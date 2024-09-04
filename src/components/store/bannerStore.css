@@ -1,0 +1,28 @@
+.bannerStore {
+    width: 100%;
+    background-color: rgba(204, 203, 203, 0.243);
+    height: 300px;
+    padding: 2% 0;
+    background-image: url("../../assets/images/storeBanner.jpg");
+    background-size: cover;
+    background-position: right;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-repeat: no-repeat;
+    justify-content: center;
+    position: relative;
+    margin-bottom: 5%;
+  
+  }
+  
+  .bannerStore-text {
+    font-family: "PlayfairDisplay", serif;
+    font-size: 68px;
+    margin-left: 10%;
+    width: 60%;
+    color: black;
+    text-align: center;
+    font-weight: bold;
+  }
+  
